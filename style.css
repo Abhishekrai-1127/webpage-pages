@@ -1,0 +1,31 @@
+body {
+    padding-top: 56px;
+}
+.offcanvas {
+    position: absolute;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 56px);
+    max-height: calc(100% - 56px - 25px);
+    overflow-y: auto;
+}
+
+.main-content {
+    padding: 20px;
+    height: 650px;
+}
+.right-panel {
+    background-color: #ba9eba;
+    padding: 20px;
+    height: 650px;
+    border-left: 1px solid #ddd;
+}
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
